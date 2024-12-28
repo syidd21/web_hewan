@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hewan yang Keren</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h3 {
+            margin: 10px 0;
+        }
+
+        .card-content p {
+            color: #555;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hewan yang Keren</h1>
+        <p>Kenali beberapa hewan paling menarik di dunia!</p>
+    </header>
+
+    <div class="container">
+        <div class="cards">
+            <div class="card">
+                <img src="hamster.png" alt="hamster">
+                <div class="card-content">
+                    <h3>hamster</h3>
+                    <p>HHamster adalah hewan kecil yang lucu dan menggemaskan. Mereka aktif di malam hari dan suka bermain di roda mereka!</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="kucing.jpg" alt="kucing">
+                <div class="card-content">
+                    <h3>kucing</h3>
+                    <p>Kucing adalah hewan peliharaan yang penuh kasih sayang dan suka bermain</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="lumba-lumba.png" alt="Lumba-lumba">
+                <div class="card-content">
+                    <h3>Lumba-lumba</h3>
+                    <p>Makhluk cerdas yang dikenal karena sifat ramah dan lompatan yang mengagumkan.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="burung.jpg" alt="burng">
+                <div class="card-content">
+                    <h3>burung</h3>
+                    <p>Burung memiliki suara merdu dan keindahan bulu yang memukau</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dunia Hewan Keren. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
